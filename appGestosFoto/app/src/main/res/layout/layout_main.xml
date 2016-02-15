@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_light"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/info_text"
+        android:id="@+id/tvInfo"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvInstructions"
+        android:background="@color/accent_material_dark"
+        android:text="@string/instructions_default" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="387dp"
+        android:id="@+id/mImageTaken" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_button"
+        android:id="@+id/bResetButton"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+</LinearLayout>

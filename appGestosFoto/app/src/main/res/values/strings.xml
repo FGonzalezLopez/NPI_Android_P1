@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">appGestosFoto</string>
+    <string name="info_text">Gesto: izquierda, derecha, izquierda</string>
+    <string name="completion_text">Gesto realizado!</string>
+    <string name="prompt_left">Desliza a la izquierda</string>
+    <string name="prompt_right">Desliza a la derecha</string>
+    <string name="prompt_cancel">Levanta el dedo e inténtalo de nuevo</string>
+    <string name="instructions_default">Pulsa la pantalla</string>
+    <string name="instructions_reset">Reinicia para volver a empezar</string>
+    <string name="reset_button">Reiniciar</string>
+
+</resources>
