@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">appFotoVoz</string>
+    <string name="status_completion">Orientación alcanzada!</string>
+    <string name="info_target">Orientación objetivo:</string>
+    <string name="degrees"> degrees</string>
+    <string name="heading">Heading: </string>
+    <string name="try_again">Inténtalo de nuevo</string>
+    <string name="N">NORTE</string>
+    <string name="S">SUR</string>
+    <string name="E">ESTE</string>
+    <string name="W">OESTE</string>
+    <string name="voice_prompt">Diga un punto cardinal, y el margen de error</string>
+    <string name="button_text">Iniciar reconocimiento de voz</string>
+</resources>
