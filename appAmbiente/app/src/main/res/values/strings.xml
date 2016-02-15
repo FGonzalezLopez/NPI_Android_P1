@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">appAmbiente</string>
+
+    <string name="temp_unavailable">Datos de temperatura no disponibles</string>
+    <string name="light_unavailable">Datos de luz no disponibles</string>
+    <string name="pressure_unavailable">Datos de presión no disponibles</string>
+    <string name="humidity_unavailable">Datos de humedad no disponibles</string>
+
+    <string name="temp_available">Temperatura(ºC): </string>
+    <string name="light_available">Intensidad de luz(lx): </string>
+    <string name="pressure_available">Presión(mbar): </string>
+    <string name="height_estimate">Altura estimada(m): </string>
+    <string name="humidity_available">Humedad relativa(%): </string>
+</resources>

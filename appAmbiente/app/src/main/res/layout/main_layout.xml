@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/dim_foreground_material_dark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/temp_unavailable"
+        android:id="@+id/tvTemp"
+        android:background="@color/accent_material_light"
+        android:padding="@dimen/abc_action_bar_content_inset_material" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/light_unavailable"
+        android:id="@+id/tvLight"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent_material_dark"
+        android:padding="@dimen/abc_action_bar_content_inset_material" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pressure_unavailable"
+        android:id="@+id/tvPressure"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent_material_light"
+        android:padding="@dimen/abc_action_bar_content_inset_material" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvHeight"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent_material_dark"
+        android:padding="@dimen/abc_action_bar_content_inset_material" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/humidity_unavailable"
+        android:id="@+id/tvHumidity"
+        android:background="@color/accent_material_light"
+        android:padding="@dimen/abc_action_bar_content_inset_material" />
+
+</LinearLayout>
