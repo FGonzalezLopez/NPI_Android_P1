@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center_horizontal"
+      android:weightSum="1">
+
+        <Button android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/butQR"
+           android:text="@string/button_text"
+           android:textSize="18sp"/>
+
+        <TextView android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvQRStatus"
+      android:text="@string/qr_def"
+      android:textSize="18sp" />
+
+    <TextView android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvResult"
+      android:text="@string/distance_to"
+      android:textSize="18sp"
+      android:background="@android:color/white"
+      android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:id="@+id/tvLatitudeValue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:id="@+id/tvLongitudeValue" />
+    </LinearLayout>
+
+      <fragment
+          android:layout_width="match_parent"
+          android:layout_height="356dp"
+          android:name="com.google.android.gms.maps.SupportMapFragment"
+          android:id="@+id/mapView"
+          android:layout_weight="1.42" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">appGPSQR</string>
+    <string name="title_activity_main">GPS-QR</string>
+
+    <string name="button_text">Escanear QR</string>
+    <string name="qr_def">Pulsa el botón para escanear QR</string>
+    <string name="qr_err">Escaneo cancelado</string>
+    <string name="result_text">Ready</string>
+    <string name="latitude_value">Latitud obj.: %1$s</string>
+    <string name="longitude_value">Longitud obj.: %1s</string>
+
+    <string name="distance_to">Distancia al objetivo: %1$.1f</string>
+    <string name="status_target_reached">Objetivo alcanzado con margen %1$.1f metros</string>
+
+</resources>
