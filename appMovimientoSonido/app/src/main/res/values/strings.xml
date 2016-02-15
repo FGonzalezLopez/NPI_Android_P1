@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">appMovimientoSonido</string>
+    <string name="calibration_text">Deja el teléfono en una superficie estable y pulsa el botón para calibrar</string>
+</resources>
